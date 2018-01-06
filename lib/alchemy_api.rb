@@ -18,7 +18,7 @@ require 'alchemy-api/image_tagging'
 require 'alchemy-api/combined_call'
 
 module AlchemyAPI
-  BASE_URL = 'https://access.alchemyapi.com/calls/'
+  BASE_URL = 'https://gateway-a.watsonplatform.net/calls/'
 
   def self.config
     Config
